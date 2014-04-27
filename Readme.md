@@ -1,17 +1,17 @@
 
-# skip-generator
+# skip-interator
 
-  Skip the first n elements of a generator
+  Skip the first n elements of an iterator
 
-  [Other handy generators](https://github.com/jb55/generators)
+  [Other handy iterators](https://github.com/jb55/generators)
 
-  [![Build Status](https://travis-ci.org/jb55/skip-generator.png)](https://travis-ci.org/jb55/skip-generator)
+  [![Build Status](https://travis-ci.org/jb55/skip-iterator.png)](https://travis-ci.org/jb55/skip-iterator)
 
 ## Installation
 
   Install with npm
 
-    $ npm install skip-generator
+    $ npm install skip-iterator
 
 ## Example
 
@@ -24,9 +24,9 @@ function* csv() {
   yield "john,20"
 }
 
-let skip = require('skip-generator')
+let skip = require('skip-iterator')
 
-for (let record of skip(csv, 1)) {
+for (let record of skip(csv(), 1)) {
   console.log(record);
 }
 
@@ -37,9 +37,9 @@ for (let record of skip(csv, 1)) {
 
 ## API
 
-### skip(Generator or GeneratorFunction, count)
+### skip([Iterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/The_Iterator_protocol), count)
 
-returns: Generator
+returns: [Iterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/The_Iterator_protocol)
 
 ## License
 

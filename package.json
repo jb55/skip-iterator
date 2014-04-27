@@ -1,21 +1,19 @@
 {
-  "name": "skip-generator",
-  "description": "Skip n elements of a generator",
+  "name": "skip-iterator",
+  "description": "Skip n elements of an iterator",
   "keywords": [
     "skip",
-    "generator"
+    "generator",
+    "iterator"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jb55/skip-generator.git"
+    "url": "git://github.com/jb55/skip-iterator.git"
   },
   "main": "index.js",
   "scripts": {
     "test": "mocha --harmony --reporter spec"
-  },
-  "dependencies": {
-    "is-generator": "0.0.3"
   },
   "devDependencies": {
     "expect.js": "*",
