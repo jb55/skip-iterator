@@ -5,7 +5,7 @@
 
   [Other handy iterators](https://github.com/jb55/generators)
 
-  [![Build Status](https://travis-ci.org/jb55/skip-iterator.png)](https://travis-ci.org/jb55/skip-iterator)
+  [![Build Status](https://travis-ci.org/jb55/skip-iterator.svg)](https://travis-ci.org/jb55/skip-iterator)
 
 ## Installation
 
